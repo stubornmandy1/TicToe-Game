@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #97aaba;
+}
+h1{
+	text-align: center;
+	color: #206873;
+	margin-top: 20px;
+}
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 100px auto;
+	height: ;
+	
+}
+table tr td {
+	width: 90px;
+	height: 90px;
+	border: 1px solid black;
+	font-size: 35px;
+	text-align:center;
+}
+table tr td:hover{
+	background-color: grey;
+	cursor: pointer;
+}
+button{
+	width:200px;
+	height:50px;
+	margin: 10px auto;
+	font-style: italic;
+	font-size: 25px;
+	background-color: #962f39;
+	border: none;
+	display: block;
+}
+.winner span{
+	font-size: 40px;
+	display: block;
+}
+
+div{
+	text-align: center;
+}
+
+button:hover{
+	background-color: rgba(87, 159, 236, 0.5);
+}
